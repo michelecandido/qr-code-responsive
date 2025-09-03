@@ -1,0 +1,95 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* fontes */
+
+@font-face {
+    font-family: 'outfitb';
+    src: url(./fonts/outfit/Outfit-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'outfitr';
+    src: url(./fonts/outfit/Outfit-Regular.ttf);
+}
+
+/* gerais */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    max-width: 320px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 20px 20px 50px;
+}
+
+footer {
+    font-family: 'outfitr';
+    margin: 0 auto;
+    padding: 2%;
+}
+
+/* textos */
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 1.3rem;
+    font-family: 'outfitb';
+    margin-bottom: 1rem;
+}
+
+p {
+    color: hsl(216, 15%, 48%);
+    font-size: 0.95rem;
+    font-family: 'outfitr';
+    margin-bottom: 1rem;
+}
+
+/* imagens */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+/* utilitários */
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+    main {
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        max-width: 315px;
+    }
+}
