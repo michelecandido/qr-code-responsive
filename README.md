@@ -27,6 +27,5 @@ O maior desafio deste projeto foi aplicar CSS responsivo, e para isso, utilizei 
 - [Projeto no GitHub Pages](https://michelecandido.github.io/qr-code-responsive/)
 
 ---
-<br>
 
 Desenvolvido com 💖 por [Michele Candido](https://github.com/michelecandido).
